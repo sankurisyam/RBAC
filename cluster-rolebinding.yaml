@@ -5,6 +5,8 @@ metadata:
 subjects:
 - kind: User
   name: rnd-user
+- kind: Group
+  name: dev-team
 roleRef:
   kind: ClusterRole
   name: global-pod-reader
